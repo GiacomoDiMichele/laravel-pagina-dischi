@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.section-main {
+  background-color: white;
+  padding: 0px 40px;
+  border-radius: 6px;
+}
+
+.title-list-albums {
+  padding: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.albums-section .title-albums {
+  text-align: center;
+  color: red;
+  margin-top: 50px;
+}
+
+.albums-section .albums-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.albums-section .disco-singolo {
+  text-align: center;
+  padding: 30px;
+  width: 300px;
+  margin: 20px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6em;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-image: url("https://beehy.pe/wp-content/uploads/2020/01/Best-of-2019-beehype-1.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.albums-section .disco-singolo h4 {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.albums-section .disco-singolo p {
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 6px;
+  padding: 5px;
+}
+
